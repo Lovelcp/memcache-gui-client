@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start",
+  "name": "memcache-gui-client",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -12,17 +12,18 @@
   },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "memcache",
+    "gui"
   ],
-  "author": "GitHub",
+  "author": "CJY",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron-prebuilt": "^1.2.0",
+    "memcached": "^2.2.2",
+    "ssh2": "^0.5.0"
   }
 }
